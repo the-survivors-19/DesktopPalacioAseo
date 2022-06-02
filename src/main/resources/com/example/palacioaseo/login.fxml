@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="294.0" style="-fx-background-color: #89ABCA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="98.0" layoutY="51.0" prefHeight="38.0" prefWidth="105.0" text="SGG-PA" textFill="#265372">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="8.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@jg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="306.0" style="-fx-background-color: #E5E5E5;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="51.0" layoutY="191.0" prefHeight="15.0" prefWidth="45.0" text="Correo">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="252.0" prefHeight="19.0" prefWidth="72.0" text="Contraseña">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Correo" layoutX="49.0" layoutY="210.0" prefHeight="33.0" prefWidth="209.0" promptText="correo" />
+            <PasswordField fx:id="Contraseña" layoutX="51.0" layoutY="271.0" prefHeight="33.0" prefWidth="205.0" promptText="contraseña " />
+            <Button depthTest="DISABLE" layoutX="55.0" layoutY="334.0" mnemonicParsing="false" opacity="0.98" prefHeight="25.0" prefWidth="199.0" style="-fx-background-color: #3279BB;" text="Ingresar" textFill="WHITE">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Label fx:id="wronglogin" layoutX="141.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" textFill="RED" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="136.0" fitWidth="129.0" layoutX="94.0" layoutY="35.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@jose.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
