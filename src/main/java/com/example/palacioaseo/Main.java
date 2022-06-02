@@ -1,2 +1,6 @@
-package com.example.palacioaseo;public class Main {
+package com.example.palacioaseo;
+
+public class Main {
+    public void changeScene(String s) {
+    }
 }
