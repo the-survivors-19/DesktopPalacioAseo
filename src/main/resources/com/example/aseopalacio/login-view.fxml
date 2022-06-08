@@ -13,16 +13,16 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
     <left>
-        <AnchorPane prefHeight="400.0" prefWidth="294.0" style="-fx-background-color: #89ABCA;" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="400.0" prefWidth="294.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
             <children>
-                <Label layoutX="98.0" layoutY="51.0" prefHeight="38.0" prefWidth="105.0" text="SGG-PA" textFill="#265372">
+                <Label layoutX="95.0" layoutY="67.0" prefHeight="38.0" prefWidth="105.0" text="SGG-PA" textFill="#f5f5f5">
                     <font>
-                        <Font name="System Bold" size="28.0" />
+                        <Font size="27.0" />
                     </font>
                 </Label>
-                <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="31.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="28.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@img/jg.png" />
+                        <Image url="@logopa.png" />
                     </image>
                 </ImageView>
             </children>
@@ -47,12 +47,15 @@
                     <opaqueInsets>
                         <Insets />
                     </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
                 </Button>
                 <Label fx:id="wronglogin" layoutX="141.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" textFill="RED" />
                 <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
-                <ImageView fitHeight="136.0" fitWidth="129.0" layoutX="94.0" layoutY="35.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="136.0" fitWidth="129.0" layoutX="94.0" layoutY="35.0" opacity="0.16" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@img/jose.png" />
+                        <Image url="@cont.png" />
                     </image>
                 </ImageView>
             </children>

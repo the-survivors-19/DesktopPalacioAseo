@@ -8,11 +8,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HomeApplication extends Application {
+public class CategoriasApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HomeApplication.class.getResource("home-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 750, 600);
+        FXMLLoader fxmlLoader = new FXMLLoader(CategoriasApplication.class.getResource("Categorias.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 825, 600);
         stage.setScene(scene);
         stage.show();
     }
