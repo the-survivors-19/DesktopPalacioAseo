@@ -2,19 +2,29 @@ package com.example.aseopalacio;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class LoginApplication extends Application {
+
+    private static Stage stg;
+
     @Override
-    public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(LoginApplication.class.getResource("login-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+    public void start(Stage primaryStage) throws Exception {
+        stg = primaryStage;
+        primaryStage.setResizable(false);
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("login-view.fxml")));
+        primaryStage.setTitle("PalacioAseo");
+        primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.show();
+    }
+    public void changeScene(String fxml) throws IOException{
+        Parent pane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxml)));
+         stg.getScene().setRoot(pane);
     }
 
     public static void main(String[] args) {
