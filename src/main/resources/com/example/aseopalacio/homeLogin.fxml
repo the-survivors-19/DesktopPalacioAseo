@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLogin">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLogin">
    <left>
       <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
          <children>
@@ -28,7 +28,7 @@
             <AnchorPane prefHeight="481.0" prefWidth="239.0" />
             <VBox layoutY="148.0" prefHeight="339.0" prefWidth="257.0">
                <children>
-                  <Button fx:id="Usuario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnUsuario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -40,7 +40,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Clientes" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnClientes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Clientes" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -52,7 +52,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Categorias" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnCategorias" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Categorias" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -64,7 +64,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Productos" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnProductos" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Productos" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -76,7 +76,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0" prefWidth="241.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Roles " textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnRoles" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0" prefWidth="241.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Roles " textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -88,7 +88,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnPrivilegios" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -100,7 +100,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Inventario" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnInventario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Inventario" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -112,7 +112,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnVentas" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -124,7 +124,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnReportes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -136,7 +136,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Cerrar Sesión" textFill="WHITE">
+                  <Button fx:id="btnCerrarSesión" mnemonicParsing="false" prefHeight="27.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" text="Cerrar Sesión" textFill="WHITE">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>

@@ -4,6 +4,7 @@ import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
@@ -21,6 +22,41 @@ public class HomeController implements Initializable {
 
     @FXML
     private Label MenuClose;
+
+    @FXML
+    private Button btnCategorias;
+
+    @FXML
+    private Button btnCerrarSesión;
+
+    @FXML
+    private Button btnClientes;
+
+    @FXML
+    private Button btnInventario;
+
+    @FXML
+    private Button btnPrivilegios;
+
+    @FXML
+    private Button btnProductos;
+
+    @FXML
+    private Button btnReportes;
+
+    @FXML
+    private Button btnRoles;
+
+    @FXML
+    private Button btnUsuario;
+
+    @FXML
+    private Button btnVentas;
+
+
+
+    public HomeController() {
+    }
 
 
     @Override
@@ -59,4 +95,3 @@ public class HomeController implements Initializable {
         });
     }
  }
-
