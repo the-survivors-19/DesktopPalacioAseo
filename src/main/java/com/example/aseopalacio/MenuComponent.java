@@ -3,12 +3,17 @@ package com.example.aseopalacio;
 import helpers.States;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MenuComponent {
     LoginApplication m = new LoginApplication();
@@ -123,7 +128,15 @@ public class MenuComponent {
     }
 
     public void setScenne(String scenne) throws Exception {
-        System.out.println("Cambiano a: "+scenne);
         this.m.changeScene(scenne+".fxml");
+    }
+
+    public void openModal(String modal, int width, int heigth) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(modal+".fxml")));
+        Stage stage = new Stage();
+        stage.setResizable(true);
+        stage.setTitle(modal);
+        stage.setScene(new Scene(root, width, heigth));
+        stage.show();
     }
 }

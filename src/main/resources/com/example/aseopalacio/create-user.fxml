@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="531.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.CreateUser">
+<AnchorPane prefHeight="531.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.UserController">
     <children>
         <ImageView fitHeight="97.0" fitWidth="136.0" layoutX="93.0" layoutY="45.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
             <image>
@@ -42,21 +42,21 @@
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
         </Label>
-        <Button layoutX="34.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+        <Button fx:id="btnCloseModalCreate" layoutX="34.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font></Button>
-        <TextField layoutX="35.0" layoutY="200.0" prefHeight="26.0" prefWidth="202.0" />
-        <TextField layoutX="35.0" layoutY="251.0" prefHeight="26.0" prefWidth="202.0" />
-        <TextField layoutX="35.0" layoutY="302.0" prefHeight="26.0" prefWidth="202.0" />
-        <TextField layoutX="32.0" layoutY="354.0" prefHeight="26.0" prefWidth="202.0" />
+        <TextField fx:id="txfFullName" layoutX="35.0" layoutY="200.0" prefHeight="26.0" prefWidth="202.0" />
+        <TextField fx:id="txfPhone" layoutX="35.0" layoutY="251.0" prefHeight="26.0" prefWidth="202.0" />
+        <TextField fx:id="txfEmail" layoutX="35.0" layoutY="302.0" prefHeight="26.0" prefWidth="202.0" />
+        <TextField fx:id="txfAddress" layoutX="32.0" layoutY="354.0" prefHeight="26.0" prefWidth="202.0" />
         <MenuButton layoutX="35.0" layoutY="412.0" mnemonicParsing="false" opacity="0.39" prefHeight="26.0" prefWidth="202.0">
             <items>
                 <MenuItem mnemonicParsing="false" text="Administrador" />
                 <MenuItem mnemonicParsing="false" text="Administrador " />
             </items>
         </MenuButton>
-        <Button layoutX="142.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+        <Button fx:id="btnSaveUser" layoutX="142.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>

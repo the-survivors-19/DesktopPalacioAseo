@@ -27,7 +27,7 @@ public class HomeController implements Initializable {
     private Button btnCategorias;
 
     @FXML
-    private Button btnCerrarSesión;
+    private Button btnCerrarSesion;
 
     @FXML
     private Button btnClientes;

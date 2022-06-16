@@ -16,6 +16,9 @@ public class Http {
         request.setRequestMethod(method);
         request.setRequestProperty("User-Agent", Constants.userAgent);
         request.setRequestProperty("Content-Type", Constants.contentTypeJson);
+        if (States.session != null){
+            request.setRequestProperty("Authorization", "Bearer "+States.session.token);
+        }
         request.setDoOutput(true);
 
         OutputStream os = request.getOutputStream();
