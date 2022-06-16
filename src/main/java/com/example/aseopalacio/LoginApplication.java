@@ -1,5 +1,6 @@
 package com.example.aseopalacio;
 
+import helpers.Constants;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,6 +24,7 @@ public class LoginApplication extends Application {
         primaryStage.show();
     }
     public void changeScene(String fxml) throws IOException{
+        stg.setResizable(true);
         Parent pane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxml)));
          stg.getScene().setRoot(pane);
     }

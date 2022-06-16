@@ -11,16 +11,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLogin">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLoginController">
    <left>
       <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@logopa.png" />
+                  <Image url="@logo.png" />
                </image>
             </ImageView>
-            <Label layoutX="13.0" layoutY="111.0" prefHeight="23.0" prefWidth="231.0" text="Bienvenido Joselin@Moreno1999" textFill="WHITE">
+            <Label fx:id="messageLogin" layoutX="13.0" layoutY="111.0" prefHeight="23.0" prefWidth="231.0" text="Bienvenido Joselin@Moreno1999" textFill="WHITE">
                <font>
                   <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
@@ -35,7 +35,7 @@
                      <graphic>
                         <ImageView fitHeight="18.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@usu.png" />
+                              <Image url="@users.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -47,7 +47,7 @@
                      <graphic>
                         <ImageView fitHeight="19.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@rol.png" />
+                              <Image url="@roles.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -59,7 +59,7 @@
                      <graphic>
                         <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@cate.png" />
+                              <Image url="@categories.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -71,7 +71,7 @@
                      <graphic>
                         <ImageView fitHeight="19.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@prod.png" />
+                              <Image url="@products.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -83,7 +83,7 @@
                      <graphic>
                         <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@clie.png" />
+                              <Image url="@customer.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -95,7 +95,7 @@
                      <graphic>
                         <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@priv.png" />
+                              <Image url="@privileges.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -107,7 +107,7 @@
                      <graphic>
                         <ImageView fitHeight="17.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@inven.png" />
+                              <Image url="@inventary.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -119,7 +119,7 @@
                      <graphic>
                         <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@repor.png" />
+                              <Image url="@reports.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -131,7 +131,7 @@
                      <graphic>
                         <ImageView fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@venta.png" />
+                              <Image url="@sales.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -143,7 +143,7 @@
                      <graphic>
                         <ImageView fitHeight="19.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@cerrar.png" />
+                              <Image url="@logout.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -159,12 +159,7 @@
             <HBox prefHeight="36.0" prefWidth="753.0" />
             <Pane prefHeight="41.0" prefWidth="753.0" style="-fx-background-color: #3279bb;">
                <children>
-                  <Label fx:id="MenuBack" alignment="CENTER" layoutX="10.0" layoutY="1.0" opacity="0.76" prefHeight="41.0" prefWidth="106.0" text="Menu" textFill="#3279bb">
-                     <font>
-                        <Font name="Arial Rounded MT Bold" size="19.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="MenuClose" alignment="CENTER" layoutX="15.0" layoutY="4.0" opacity="0.76" prefHeight="36.0" prefWidth="97.0" text="Menu" textFill="WHITE">
+                  <Label fx:id="menu" alignment="CENTER" layoutX="10.0" layoutY="1.0" opacity="0.76" prefHeight="41.0" prefWidth="106.0" text="Menu" textFill="WHITE">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="19.0" />
                      </font>

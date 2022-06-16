@@ -61,37 +61,6 @@ public class HomeController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resource) {
-        slider.setTranslateX(-400);
-        MenuBack.setOnMouseClicked(event ->{
-            TranslateTransition slide = new TranslateTransition();
-            slide.setDuration(Duration.seconds(0.4));
-            slide.setNode(slider);
 
-            slide.setToX(0);
-            slide.play();
-
-            slider.setTranslateX(-176);
-
-            slide.setOnFinished((ActionEvent e)->{
-                MenuBack.setVisible(false);
-                MenuClose.setVisible(true);
-            });
-        });
-
-        MenuClose.setOnMouseClicked(event ->{
-            TranslateTransition slide = new TranslateTransition();
-            slide.setDuration(Duration.seconds(0.4));
-            slide.setNode(slider);
-
-            slide.setToX(-400);
-            slide.play();
-
-            slider.setTranslateX(0);
-
-            slide.setOnFinished((ActionEvent e)->{
-                MenuBack.setVisible(true);
-                MenuClose.setVisible(false);
-            });
-        });
     }
  }

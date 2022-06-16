@@ -10,6 +10,10 @@ module com.example.aseopalacio {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
+    requires gson;
+    requires com.fasterxml.jackson.databind;
+
     opens com.example.aseopalacio to javafx.fxml;
     exports com.example.aseopalacio;
+    exports helpers;
 }
