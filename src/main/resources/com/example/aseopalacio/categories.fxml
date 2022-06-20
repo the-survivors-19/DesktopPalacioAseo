@@ -1,166 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0"
-            prefWidth="818.0"
-            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.aseopalacio.CategoryController">
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.CategoryController">
     <left>
-        <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;"
-              BorderPane.alignment="CENTER">
+        <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
             <children>
                 <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@logo.png"/>
+                        <Image url="@logo.png" />
                     </image>
                 </ImageView>
-                <Label fx:id="messageLogin" layoutX="13.0" layoutY="111.0" prefHeight="23.0" prefWidth="231.0"
-                       text="Bienvenido Joselin@Moreno1999" textFill="WHITE">
+                <Label fx:id="messageLogin" layoutX="13.0" layoutY="111.0" prefHeight="23.0" prefWidth="231.0" text="Bienvenido Joselin@Moreno1999" textFill="WHITE">
                     <font>
-                        <Font name="Arial Rounded MT Bold" size="14.0"/>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
                     </font>
                 </Label>
-                <AnchorPane prefHeight="481.0" prefWidth="239.0"/>
+                <AnchorPane prefHeight="481.0" prefWidth="239.0" />
                 <VBox layoutY="148.0" prefHeight="339.0" prefWidth="257.0">
                     <children>
-                        <Button fx:id="btnUsuario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
-                                prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnUsuario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="18.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@users.png"/>
+                                        <Image url="@users.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnClientes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
-                                prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Clientes" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnClientes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Clientes" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="19.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@roles.png"/>
+                                        <Image url="@roles.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnCategorias" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="30.0"
-                                prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Categorias" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnCategorias" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Categorias" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@categories.png"/>
+                                        <Image url="@categories.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnProductos" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0"
-                                prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Productos" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnProductos" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Productos" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="19.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@products.png"/>
+                                        <Image url="@products.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnRoles" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0"
-                                prefWidth="241.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Roles " textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnRoles" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0" prefWidth="241.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Roles " textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@customer.png"/>
+                                        <Image url="@customer.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnPrivilegios" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
-                                prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnPrivilegios" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@privileges.png"/>
+                                        <Image url="@privileges.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnInventario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
-                                prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Inventario" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnInventario" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Inventario" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="17.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@inventary.png"/>
+                                        <Image url="@inventary.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnVentas" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0"
-                                prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnVentas" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@reports.png"/>
+                                        <Image url="@reports.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnReportes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="31.0"
-                                prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnReportes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@sales.png"/>
+                                        <Image url="@sales.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnCerrarSesion" mnemonicParsing="false" prefHeight="27.0" prefWidth="242.0"
-                                style="-fx-background-color: #3279BB;" text="Cerrar Sesión" textFill="WHITE">
+                        <Button fx:id="btnCerrarSesion" mnemonicParsing="false" prefHeight="27.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" text="Cerrar Sesión" textFill="WHITE">
                             <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0"/>
+                                <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
                             <graphic>
                                 <ImageView fitHeight="19.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@logout.png"/>
+                                        <Image url="@logout.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -171,61 +159,48 @@
         </Pane>
     </left>
     <center>
-        <AnchorPane prefHeight="581.0" prefWidth="572.0" style="-fx-background-color: #ffffff;"
-                    BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="581.0" prefWidth="572.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
             <children>
-                <StackPane layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="109.0"/>
-                <Button layoutX="148.0" layoutY="72.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0"
-                        style="-fx-background-color: #3279BB;" text="Nuevo" textFill="WHITE" translateX="1.0"
-                        translateY="1.0" translateZ="1.0">
+                <StackPane layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="109.0" />
+                <Button fx:id="btnCreateCategory" layoutX="148.0" layoutY="72.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" style="-fx-background-color: #3279BB;" text="Nuevo" textFill="WHITE" translateX="1.0" translateY="1.0" translateZ="1.0">
                     <font>
-                        <Font name="Arial Rounded MT Bold" size="16.0"/>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
                     </font>
                 </Button>
                 <VBox layoutX="19.0" layoutY="100.0" prefHeight="424.0" prefWidth="527.0">
                     <children>
                         <GridPane prefHeight="386.0" prefWidth="526.0">
                             <columnConstraints>
-                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                             </columnConstraints>
                             <rowConstraints>
-                                <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES"/>
-                                <RowConstraints maxHeight="328.0" minHeight="10.0" prefHeight="302.0"
-                                                vgrow="SOMETIMES"/>
+                                <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                <RowConstraints maxHeight="328.0" minHeight="10.0" prefHeight="302.0" vgrow="SOMETIMES" />
                             </rowConstraints>
                             <children>
-                                <TableView prefHeight="363.0" prefWidth="486.0" GridPane.rowIndex="1">
+                                <TableView fx:id="tblCategories" prefHeight="363.0" prefWidth="486.0" GridPane.rowIndex="1">
                                     <columns>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;"
-                                                     text="Nombre"/>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;"
-                                                     text="Telefono"/>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;"
-                                                     text="Dirección"/>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;"
-                                                     text="Correo"/>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;"
-                                                     text="Acciones"/>
+                                        <TableColumn fx:id="colId" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="id" visible="false" />
+                                        <TableColumn fx:id="colDescription" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Descripcion" />
+                                        <TableColumn fx:id="colActions" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
                                     </columns>
                                     <columnResizePolicy>
-                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                                     </columnResizePolicy>
                                 </TableView>
                             </children>
                         </GridPane>
-                        <VBox prefHeight="44.0" prefWidth="502.0"/>
+                        <VBox prefHeight="44.0" prefWidth="502.0" />
                     </children>
                 </VBox>
-                <Label alignment="CENTER" layoutX="21.0" layoutY="69.0" prefHeight="34.0" prefWidth="129.0"
-                       text="Categorias " textAlignment="CENTER" textFill="#3279bb">
+                <Label alignment="CENTER" layoutX="21.0" layoutY="69.0" prefHeight="34.0" prefWidth="129.0" text="Categorias " textAlignment="CENTER" textFill="#3279bb">
                     <font>
-                        <Font name="Arial Rounded MT Bold" size="21.0"/>
+                        <Font name="Arial Rounded MT Bold" size="21.0" />
                     </font>
                 </Label>
-                <Button layoutX="455.0" layoutY="515.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="93.0"
-                        style="-fx-background-color: #ffffff;" text="&lt;123...&gt;">
+                <Button layoutX="455.0" layoutY="515.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="93.0" style="-fx-background-color: #ffffff;" text="&lt;123...&gt;">
                     <font>
-                        <Font name="Arial Rounded MT Bold" size="15.0"/>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
                     </font>
                 </Button>
             </children>

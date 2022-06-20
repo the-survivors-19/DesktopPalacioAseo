@@ -16,4 +16,7 @@ module com.example.aseopalacio {
     opens com.example.aseopalacio to javafx.fxml;
     exports com.example.aseopalacio;
     exports helpers;
+
+    opens models to javafx.fxml;
+    exports models;
 }

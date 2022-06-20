@@ -178,13 +178,14 @@
                                 <RowConstraints maxHeight="328.0" minHeight="10.0" prefHeight="302.0" vgrow="SOMETIMES" />
                             </rowConstraints>
                             <children>
-                                <TableView fx:id="tableUsers" prefHeight="363.0" prefWidth="486.0" GridPane.rowIndex="1">
+                                <TableView fx:id="tableUsers" prefHeight="363.0" prefWidth="521.0" GridPane.rowIndex="1">
                                     <columns>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Nombre" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Telefono" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Dirección" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Correo" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
+                                        <TableColumn fx:id="colFullName" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Nombre" />
+                                        <TableColumn fx:id="colPhone" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Telefono" />
+                                        <TableColumn fx:id="colAddress" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Dirección" />
+                                        <TableColumn fx:id="colEmail" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Correo" />
+                                        <TableColumn fx:id="colActions" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
+                              <TableColumn fx:id="colId" prefWidth="75.0" text="id" visible="false" />
                                     </columns>
                                     <columnResizePolicy>
                                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -200,11 +201,6 @@
                         <Font name="Arial Rounded MT Bold" size="21.0" />
                     </font>
                 </Label>
-                <Button layoutX="455.0" layoutY="515.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="93.0" style="-fx-background-color: #ffffff;" text="&lt;123...&gt;">
-                    <font>
-                        <Font name="Arial Rounded MT Bold" size="15.0" />
-                    </font>
-                </Button>
             </children>
         </AnchorPane>
     </center>

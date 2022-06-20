@@ -153,28 +153,7 @@
          </children>
       </Pane>
    </left>
-   <top>
-      <AnchorPane prefHeight="34.0" prefWidth="753.0" BorderPane.alignment="CENTER">
-         <children>
-            <HBox prefHeight="36.0" prefWidth="753.0" />
-            <Pane prefHeight="41.0" prefWidth="753.0" style="-fx-background-color: #3279bb;">
-               <children>
-                  <Label fx:id="menu" alignment="CENTER" layoutX="10.0" layoutY="1.0" opacity="0.76" prefHeight="41.0" prefWidth="106.0" text="Menu" textFill="WHITE">
-                     <font>
-                        <Font name="Arial Rounded MT Bold" size="19.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="28.0" fitWidth="29.0" layoutX="8.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@menu.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </Pane>
-         </children>
-      </AnchorPane>
-   </top>
-   <right>
+   <center>
       <Pane prefHeight="464.0" prefWidth="512.0" BorderPane.alignment="CENTER">
          <children>
             <Label layoutX="181.0" layoutY="31.0" text="Home" textFill="#3279bb">
@@ -184,5 +163,5 @@
             </Label>
          </children>
       </Pane>
-   </right>
+   </center>
 </BorderPane>
