@@ -37,7 +37,7 @@
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
         </Label>
-        <Label layoutX="33.0" layoutY="388.0" prefHeight="16.0" prefWidth="51.0" text="Roles">
+        <Label layoutX="33.0" layoutY="388.0" prefHeight="16.0" prefWidth="51.0" text="Unidades de Medida">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
@@ -61,11 +61,6 @@
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
         </Button>
-      <Button layoutX="6.0" layoutY="8.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="117.0" style="-fx-background-color: #3279BB;" text="Buscar Cliente" textFill="WHITE">
-         <font>
-            <Font name="Arial Rounded MT Bold" size="12.0" />
-         </font>
-      </Button>
       <TextField fx:id="txfId" layoutX="57.0" layoutY="153.0" visible="false" />
     </children>
 </AnchorPane>

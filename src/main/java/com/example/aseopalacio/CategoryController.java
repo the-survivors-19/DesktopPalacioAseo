@@ -22,13 +22,13 @@ import java.net.HttpURLConnection;
 public class CategoryController extends MenuComponent {
 
     @FXML
-    private TableColumn<?, ?> colActions;
+    private TableColumn colActions;
 
     @FXML
-    private TableColumn<?, ?> colDescription;
+    private TableColumn colDescription;
 
     @FXML
-    private TableColumn<?, ?> colId;
+    private TableColumn colId;
 
     @FXML
     private Button btnCreateCategory;

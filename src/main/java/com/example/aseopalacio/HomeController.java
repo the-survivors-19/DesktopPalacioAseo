@@ -30,7 +30,7 @@ public class HomeController implements Initializable {
     private Button btnCerrarSesion;
 
     @FXML
-    private Button btnClientes;
+    private Button btnProveedores;
 
     @FXML
     private Button btnInventario;
@@ -45,7 +45,7 @@ public class HomeController implements Initializable {
     private Button btnReportes;
 
     @FXML
-    private Button btnRoles;
+    private Button btnMeasurementUnits;
 
     @FXML
     private Button btnUsuario;

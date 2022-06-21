@@ -23,7 +23,7 @@ public class MenuComponent {
     @FXML
     private Button btnCerrarSesion;
     @FXML
-    private Button btnClientes;
+    private Button btnProveedores;
     @FXML
     private Button btnInventario;
     @FXML
@@ -33,7 +33,7 @@ public class MenuComponent {
     @FXML
     private Button btnReportes;
     @FXML
-    private Button btnRoles;
+    private Button btnMeasurementUnits;
     @FXML
     private Button btnUsuario;
     @FXML
@@ -63,10 +63,10 @@ public class MenuComponent {
                 }
             });
         }
-        if (this.btnClientes != null) {
-            this.btnClientes.setOnMouseClicked(e -> {
+        if (this.btnProveedores != null) {
+            this.btnProveedores.setOnMouseClicked(e -> {
                 try {
-                    setScenne("customers");
+                    setScenne("providers");
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
@@ -108,10 +108,10 @@ public class MenuComponent {
                 }
             });
         }
-        if (this.btnRoles != null) {
-            this.btnRoles.setOnMouseClicked(e -> {
+        if (this.btnMeasurementUnits != null) {
+            this.btnMeasurementUnits.setOnMouseClicked(e -> {
                 try {
-                    setScenne("roles");
+                    setScenne("measurement-units");
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
@@ -145,11 +145,11 @@ public class MenuComponent {
 
     public void userLogOut(MouseEvent event) throws IOException {
         States.logout();
-        this.m.changeScene("login-view.fxml");
+        this.m.changeScene("login-view.fxml", 306, 400);
     }
 
-    public void setScenne(String scenne, Map<String, String>... data) throws Exception {
-        this.m.changeScene(scenne + ".fxml");
+    public void setScenne(String scenne) throws Exception {
+        this.m.changeScene(scenne + ".fxml", 818, 581);
     }
 
     public void openModal(String modal, int width, int heigth) throws IOException {

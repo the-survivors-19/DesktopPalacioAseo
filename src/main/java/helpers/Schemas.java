@@ -20,4 +20,19 @@ public class Schemas {
         public String id;
         public String description;
     }
+
+    public class Providers{
+        public String id;
+        public String name;
+        public String phone;
+        public String address;
+        public String duty_manager;
+        public String email;
+    }
+
+    public class MeasurementUnits{
+        public String id;
+        public String unit;
+        public String abbreviation;
+    }
 }

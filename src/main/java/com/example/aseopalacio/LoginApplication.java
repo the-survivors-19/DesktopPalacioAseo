@@ -23,10 +23,13 @@ public class LoginApplication extends Application {
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
-    public void changeScene(String fxml) throws IOException{
+
+    public void changeScene(String fxml, int width, int height) throws IOException{
         stg.setResizable(true);
+        stg.setWidth(width);
+        stg.setHeight(height);
         Parent pane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxml)));
-         stg.getScene().setRoot(pane);
+        stg.getScene().setRoot(pane);
     }
 
     public static void main(String[] args) {

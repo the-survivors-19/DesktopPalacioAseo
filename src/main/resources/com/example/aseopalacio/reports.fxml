@@ -41,16 +41,16 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnClientes" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
+                        <Button fx:id="btnProveedores" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="32.0"
                                 prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Clientes" textAlignment="RIGHT" textFill="#fffefe">
+                                text="Proveedores" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
                                 <Font name="Arial Rounded MT Bold" size="13.0"/>
                             </font>
                             <graphic>
                                 <ImageView fitHeight="19.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@roles.png"/>
+                                        <Image url="@measurement-units.png"/>
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -83,16 +83,16 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button fx:id="btnRoles" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0"
+                        <Button fx:id="btnMeasurementUnits" alignment="TOP_CENTER" mnemonicParsing="false" prefHeight="27.0"
                                 prefWidth="241.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem"
-                                text="Roles " textAlignment="RIGHT" textFill="#fffefe">
+                                text="Unidades de Medida " textAlignment="RIGHT" textFill="#fffefe">
                             <font>
                                 <Font name="Arial Rounded MT Bold" size="13.0"/>
                             </font>
                             <graphic>
                                 <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@customer.png"/>
+                                        <Image url="@providers.png"/>
                                     </image>
                                 </ImageView>
                             </graphic>

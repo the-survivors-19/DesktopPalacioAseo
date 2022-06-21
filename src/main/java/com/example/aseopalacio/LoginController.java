@@ -62,7 +62,7 @@ public class LoginController {
             States.session = gson.fromJson(response, Schemas.ResponseLogin.class);
 
             wronglogin.setText("Bienvenido!");
-            m.changeScene("home-login.fxml");
+            m.changeScene("home-login.fxml", 818, 581);
 
         /*
         if (username.getText().equals("javacoding") && password.getText().equals("123")) {

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="398.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.ProviderController">
+   <children>
+      <Label fx:id="lblTitlteModal" layoutX="25.0" layoutY="25.0" prefHeight="25.0" prefWidth="220.0" text="Crear Proveedor">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="90.0" text="Nombre" />
+      <Label layoutX="25.0" layoutY="136.0" text="Direccion" />
+      <Label layoutX="25.0" layoutY="180.0" text="Telefono" />
+      <Label layoutX="24.0" layoutY="224.0" text="Correo" />
+      <Label layoutX="24.0" layoutY="271.0" text="Encargado" />
+      <Button fx:id="btnSave" layoutX="187.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCloseModal" layoutX="33.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txfName" layoutX="121.0" layoutY="86.0" />
+      <TextField fx:id="txfAddress" layoutX="121.0" layoutY="132.0" />
+      <TextField fx:id="txfPhone" layoutX="121.0" layoutY="176.0" />
+      <TextField fx:id="txfEmail" layoutX="121.0" layoutY="220.0" />
+      <TextField fx:id="txfDutyManager" layoutX="121.0" layoutY="267.0" />
+      <TextField fx:id="txfId" layoutX="75.0" layoutY="50.0" />
+   </children>
+</AnchorPane>
