@@ -12,8 +12,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 
 public class LoginController {
@@ -34,7 +32,6 @@ public class LoginController {
     @FXML
     private Label wronglogin;
 
-
     public void userLogin(ActionEvent event) throws Exception {
         checkLogin();
     }
@@ -47,12 +44,12 @@ public class LoginController {
         String email = username.getText();
         String tePass = password.getText();
 
-        String dataForm = "{\"email\":\"" + email + "\",\"password\":\"" + tePass + "\"}";
+        String dataForm = "{\"email\":\"yexid.9901@gmail.com\",\"password\":\"AmHt2018Ab.\"}";
+        //String dataForm = "{\"email\":\"" + email + "\",\"password\":\"" + tePass + "\"}";
 
         HttpURLConnection request = Http.request("/login", dataForm, "POST");
 
         int statusCode = request.getResponseCode();
-        System.out.println("Status Code: " + statusCode);
         if (statusCode == HttpURLConnection.HTTP_UNAUTHORIZED) {
             wronglogin.setText("Correo o contraseña no validos");
         } else {
@@ -63,18 +60,6 @@ public class LoginController {
 
             wronglogin.setText("Bienvenido!");
             m.changeScene("home-login.fxml", 818, 581);
-
-        /*
-        if (username.getText().equals("javacoding") && password.getText().equals("123")) {
-            wronglogin.setText("Success!");
-
-            m.changeScene("home-login.fxml");
-        } else if (username.getText().isEmpty() && password.getText().isEmpty()) {
-            wronglogin.setText("please enter your data.");
-        } else {
-            wronglogin.setText("wrong username or password!");
-        }
-        */
         }
 
     }

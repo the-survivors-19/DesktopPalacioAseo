@@ -51,7 +51,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
                 </Button>
-                <Label fx:id="wronglogin" layoutX="55.0" layoutY="316.0" prefHeight="16.0" prefWidth="195.0" textFill="#ff8800">
+                <Label fx:id="wronglogin" layoutX="31.0" layoutY="309.0" prefHeight="34.0" prefWidth="252.0" textFill="#ff8800">
                <font>
                   <Font name="Arial" size="13.0" />
                </font></Label>

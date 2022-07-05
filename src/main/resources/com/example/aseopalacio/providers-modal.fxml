@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="398.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.ProviderController">
    <children>
       <Label fx:id="lblTitlteModal" layoutX="25.0" layoutY="25.0" prefHeight="25.0" prefWidth="220.0" text="Crear Proveedor">
@@ -34,6 +33,6 @@
       <TextField fx:id="txfPhone" layoutX="121.0" layoutY="176.0" />
       <TextField fx:id="txfEmail" layoutX="121.0" layoutY="220.0" />
       <TextField fx:id="txfDutyManager" layoutX="121.0" layoutY="267.0" />
-      <TextField fx:id="txfId" layoutX="75.0" layoutY="50.0" />
+      <TextField fx:id="txfId" layoutX="75.0" layoutY="50.0" visible="false" />
    </children>
 </AnchorPane>

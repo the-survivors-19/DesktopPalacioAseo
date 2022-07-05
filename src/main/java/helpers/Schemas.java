@@ -35,4 +35,13 @@ public class Schemas {
         public String unit;
         public String abbreviation;
     }
+
+    public class Products{
+        public String code;
+        public String id;
+        public String name;
+        public String description;
+        public Map<String, String> category_id;
+        public Map<String, String> provider_id;
+    }
 }

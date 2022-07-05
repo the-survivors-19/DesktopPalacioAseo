@@ -73,7 +73,7 @@ public class UserController extends MenuComponent {
         if (btnCreateUser != null) {
             btnCreateUser.setOnMouseClicked(e -> {
                 try {
-                    this.openModal("user-modal", 282, 531);
+                    this.openModal("users-modal", 282, 531);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
