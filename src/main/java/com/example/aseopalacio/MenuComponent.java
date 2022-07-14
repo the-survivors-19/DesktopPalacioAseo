@@ -37,6 +37,8 @@ public class MenuComponent {
     @FXML
     private Button btnUsuario;
     @FXML
+    private Button btnSalesManager;
+    @FXML
     private Button btnVentas;
     @FXML
     private Label messageLogin;
@@ -126,6 +128,15 @@ public class MenuComponent {
                 }
             });
         }
+        if (this.btnSalesManager != null) {
+            this.btnSalesManager.setOnMouseClicked(e -> {
+                try {
+                    setScenne("sales-manager");
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            });
+        }
         if (this.btnCerrarSesion != null) {
             this.btnCerrarSesion.setOnMouseClicked(e -> {
                 try {
@@ -145,7 +156,7 @@ public class MenuComponent {
 
     public void userLogOut(MouseEvent event) throws IOException {
         States.logout();
-        this.m.changeScene("login-view.fxml", 306, 400);
+        this.m.changeScene("login-view.fxml", 600, 450);
     }
 
     public void setScenne(String scenne) throws Exception {

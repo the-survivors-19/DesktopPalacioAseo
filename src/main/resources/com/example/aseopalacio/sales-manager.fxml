@@ -5,7 +5,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -18,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:controller="com.example.aseopalacio.SaleController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.SalesManager">
     <left>
         <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
             <children>
@@ -149,12 +148,7 @@
         <AnchorPane prefHeight="581.0" prefWidth="572.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
             <children>
                 <StackPane layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="109.0" />
-                <Button layoutX="148.0" layoutY="72.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" style="-fx-background-color: #3279BB;" text="Nuevo" textFill="WHITE" translateX="1.0" translateY="1.0" translateZ="1.0">
-                    <font>
-                        <Font name="Arial Rounded MT Bold" size="16.0" />
-                    </font>
-                </Button>
-                <VBox layoutX="17.0" layoutY="135.0" prefHeight="419.0" prefWidth="527.0">
+                <VBox layoutX="19.0" layoutY="100.0" prefHeight="424.0" prefWidth="527.0">
                     <children>
                         <GridPane prefHeight="386.0" prefWidth="526.0">
                             <columnConstraints>
@@ -165,35 +159,30 @@
                                 <RowConstraints maxHeight="328.0" minHeight="10.0" prefHeight="302.0" vgrow="SOMETIMES" />
                             </rowConstraints>
                             <children>
-                                <TableView prefHeight="359.0" prefWidth="527.0" GridPane.rowIndex="1">
+                                <TableView fx:id="tblSales" prefHeight="363.0" prefWidth="486.0" GridPane.rowIndex="1">
                                     <columns>
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Nombre" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Telefono" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Dirección" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Correo" />
-                                        <TableColumn prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
+                                        <TableColumn fx:id="colDate" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Fecha" />
+                                        <TableColumn fx:id="colNameClient" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Cliente" />
+                                        <TableColumn fx:id="colAddress" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Direccion" />
+                                        <TableColumn fx:id="colTotal" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Total" />
+                                        <TableColumn fx:id="colState" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Estado" />
+                              <TableColumn fx:id="colIdProduct" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="id" visible="false" />
                                     </columns>
                                     <columnResizePolicy>
                                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                                     </columnResizePolicy>
                                 </TableView>
-                        <TextField prefHeight="29.0" prefWidth="527.0" />
                             </children>
                         </GridPane>
                         <VBox prefHeight="44.0" prefWidth="502.0" />
                     </children>
                 </VBox>
-                <Label alignment="CENTER" layoutX="19.0" layoutY="72.0" prefHeight="34.0" prefWidth="129.0" text="Ventas" textAlignment="CENTER" textFill="#3279bb">
+                <Label alignment="CENTER" layoutX="19.0" layoutY="72.0" prefHeight="34.0" prefWidth="200.0" text="Lista de ventas" textAlignment="CENTER" textFill="#3279bb">
                     <font>
                         <Font name="Arial Rounded MT Bold" size="21.0" />
                     </font>
                 </Label>
-                <Button layoutX="455.0" layoutY="527.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="93.0" style="-fx-background-color: #ffffff;" text="&lt;123...&gt;">
-                    <font>
-                        <Font name="Arial Rounded MT Bold" size="15.0" />
-                    </font>
-                </Button>
-            <Button layoutX="471.0" layoutY="155.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #89ABCA;" text="Buscar" />
+                
             </children>
         </AnchorPane>
     </center>

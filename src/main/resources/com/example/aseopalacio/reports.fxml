@@ -101,7 +101,7 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                         </Button>
-                  <Button fx:id="btnVentas1" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnSalesManager" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>

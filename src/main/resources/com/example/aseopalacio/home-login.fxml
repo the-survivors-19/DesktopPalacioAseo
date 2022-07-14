@@ -13,7 +13,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLoginController">
    <left>
-      <Pane fx:id="slider" prefHeight="581.0" prefWidth="572.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
+      <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -28,21 +28,6 @@
             <AnchorPane prefHeight="481.0" prefWidth="239.0" />
             <VBox layoutY="148.0" prefHeight="339.0" prefWidth="257.0">
                <children>
-                  <Button fx:id="btnUsuario" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
-                     <font>
-                        <Font name="Arial Rounded MT Bold" size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="18.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@users.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                  </Button>
                   <Button fx:id="btnProveedores" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Proveedores" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
@@ -103,22 +88,7 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button fx:id="btnPrivilegios" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
-                     <font>
-                        <Font name="Arial Rounded MT Bold" size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@privileges.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                  </Button>
-                  <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Realizar Venta" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
@@ -133,14 +103,14 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button fx:id="btnReportes" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
+                  <Button fx:id="btnSalesManager" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
                      </font>
                      <graphic>
-                        <ImageView fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@sales.png" />
+                              <Image url="@reports.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -169,28 +139,24 @@
       </Pane>
    </left>
    <center>
-      <Pane prefHeight="464.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+      <AnchorPane style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane prefHeight="505.0" prefWidth="511.0" style="-fx-background-color: #ffffff;">
-               <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="129.0" prefHeight="38.0" prefWidth="511.0" text="SISTEMA GENERAL DE GESTION" textAlignment="CENTER" textFill="#5b5b5b">
-                     <font>
-                        <Font size="27.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="137.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@logo.png" />
-                     </image>
-                  </ImageView>
-                  <Label alignment="CENTER" layoutY="368.0" prefHeight="38.0" prefWidth="511.0" text="PALACIO DEL ASEO" textFill="#5b5b5b">
-                     <font>
-                        <Font size="27.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="129.0" prefHeight="38.0" prefWidth="511.0" text="SISTEMA GENERAL DE GESTION" textAlignment="CENTER" textFill="#5b5b5b">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="137.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutY="368.0" prefHeight="38.0" prefWidth="511.0" text="PALACIO DEL ASEO" textFill="#5b5b5b">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
          </children>
-      </Pane>
+      </AnchorPane>
    </center>
 </BorderPane>

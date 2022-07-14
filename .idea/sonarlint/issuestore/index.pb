@@ -1,6 +1,4 @@
 
-t
-Dsrc/main/java/com/example/aseopalacio/MeasurementUnitController.java,5/7/57315cf854ef0511330daa5dbe4677ca1c8a6502
 N
 src/main/java/module-info.java,1/c/1c89a5491fbfda3fb050196d6a239f20200296e7
 W
@@ -21,16 +19,12 @@ S
 #src/main/java/models/UserModel.java,4/2/42af7c451f981e578c83e10ef8f7a50653a62646
 Q
 !src/main/java/helpers/States.java,2/7/27ec093224fab206b523a9a114a64ec27ce5b633
-h
-8src/main/java/com/example/aseopalacio/MenuComponent.java,3/7/375849733386e49e374d528cd5f78b26470ac1a0
 i
 9src/main/java/com/example/aseopalacio/UserController.java,3/2/32aed8da22cc80b6ff931c785e010f07a525b456
 n
 >src/main/java/com/example/aseopalacio/InventaryController.java,f/a/fa32c8f7ede8af2daf05ad50ce706f92e0b05a4f
 m
 =src/main/java/com/example/aseopalacio/ProviderController.java,c/e/cef30a21877b479bc7f645b777f4dac123546618
-j
-:src/main/java/com/example/aseopalacio/LoginController.java,8/6/86819473fe0e32e6109930ad4376ed5d354a96f2
 n
 >src/main/java/com/example/aseopalacio/PrivilegeController.java,3/f/3fd106f671bfe2ce360b34a1c8f33c38fe93b380
 i
