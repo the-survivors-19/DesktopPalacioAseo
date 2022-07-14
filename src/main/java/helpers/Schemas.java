@@ -1,5 +1,6 @@
 package helpers;
 
+import java.util.List;
 import java.util.Map;
 
 public class Schemas {
@@ -41,7 +42,21 @@ public class Schemas {
         public String id;
         public String name;
         public String description;
+        public String img_1;
+        public String img_2;
+        public String img_3;
+        public String img_4;
         public Map<String, String> category_id;
         public Map<String, String> provider_id;
+        public List<WeightProduct> weight_products;
+    }
+
+    public class WeightProduct{
+        public String id;
+        public String price;
+        public String stock;
+        public String quantity;
+        public String remove;
+        public Map<String, String> measurement_unit_id;
     }
 }

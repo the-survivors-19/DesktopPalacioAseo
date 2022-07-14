@@ -21,7 +21,6 @@ public class UserModel {
         this.phone = phone;
         this.address = address;
         this.email = email;
-        System.out.println();
         if(!States.session.user.get("id").equals(id+"")) {
             this.actions = new Button("Eliminar");
             this.actions.setOnMouseClicked(e -> {
