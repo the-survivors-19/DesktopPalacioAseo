@@ -45,3 +45,17 @@ i
 9src/main/java/com/example/aseopalacio/SaleController.java,7/6/764a71e5a76edd82bd4786bf2947d60a1b1d628d
 ^
 .src/main/java/models/MeasurementUnitModel.java,8/3/83f4d66e0a61262ad244fcad9e61ce2de6b2c0ed
+m
+=src/main/java/com/example/aseopalacio/CategoryController.java,3/9/397fc414b12e1f2cf911ec5978d5d45a280e57a4
+O
+src/main/java/helpers/Http.java,5/5/55fe521e0383d8abea84bbcab46a1a82748b75d6
+[
++src/main/java/helpers/MultipartUtility.java,2/f/2fed4e243f483a0934b0fd5e1b4c7f1f35a67b78
+T
+$src/main/java/helpers/Constants.java,f/6/f6e7a4f9f842401adcecadfe41038f9d4e53e62b
+l
+<src/main/java/com/example/aseopalacio/ProductController.java,f/9/f92a5681da11055f7d8d287d52e93761b7493aa5
+R
+"src/main/java/helpers/Schemas.java,a/2/a2b2cf7bb525f29732d051e1b3b7d7e900f8cbe8
+V
+&src/main/java/models/ProductModel.java,8/d/8d8baefc7161baf706357f5c30ab0fbd03399e88

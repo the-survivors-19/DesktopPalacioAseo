@@ -35,21 +35,6 @@
                 <AnchorPane prefHeight="481.0" prefWidth="239.0" />
                 <VBox layoutY="148.0" prefHeight="339.0" prefWidth="257.0">
                     <children>
-                        <Button fx:id="btnUsuario" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Usuarios" textAlignment="RIGHT" textFill="#fffefe">
-                            <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0" />
-                            </font>
-                            <graphic>
-                                <ImageView fitHeight="18.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@users.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                        </Button>
                         <Button fx:id="btnProveedores" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Proveedores" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
                                 <Font name="Arial Rounded MT Bold" size="13.0" />
@@ -110,22 +95,7 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                         </Button>
-                        <Button fx:id="btnPrivilegios" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="32.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Privilegios" textAlignment="RIGHT" textFill="#fffefe">
-                            <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0" />
-                            </font>
-                            <graphic>
-                                <ImageView fitHeight="17.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@privileges.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                        </Button>
-                        <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Ventas" textAlignment="RIGHT" textFill="#fffefe">
+                        <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Realizar Venta" textAlignment="RIGHT" textFill="#fffefe">
                             <font>
                                 <Font name="Arial Rounded MT Bold" size="13.0" />
                             </font>
@@ -140,21 +110,21 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                         </Button>
-                        <Button fx:id="btnReportes" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Reportes " textAlignment="RIGHT" textFill="#fffefe">
-                            <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0" />
-                            </font>
-                            <graphic>
-                                <ImageView fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@sales.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
+                  <Button fx:id="btnVentas1" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="13.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@reports.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
                      <VBox.margin>
                         <Insets left="10.0" />
                      </VBox.margin>
-                        </Button>
+                  </Button>
                         <Button fx:id="btnCerrarSesion" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="27.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" text="Cerrar Sesión" textFill="WHITE">
                             <font>
                                 <Font name="Arial Rounded MT Bold" size="13.0" />

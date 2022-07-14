@@ -7,14 +7,13 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.HomeLoginController">
    <left>
-      <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
+      <Pane fx:id="slider" prefHeight="581.0" prefWidth="572.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="118.0" fitWidth="122.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -172,11 +171,25 @@
    <center>
       <Pane prefHeight="464.0" prefWidth="512.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="181.0" layoutY="31.0" text="Home" textFill="#3279bb">
-               <font>
-                  <Font name="Arial Rounded MT Bold" size="26.0" />
-               </font>
-            </Label>
+            <AnchorPane prefHeight="505.0" prefWidth="511.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="129.0" prefHeight="38.0" prefWidth="511.0" text="SISTEMA GENERAL DE GESTION" textAlignment="CENTER" textFill="#5b5b5b">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="242.0" fitWidth="239.0" layoutX="137.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutY="368.0" prefHeight="38.0" prefWidth="511.0" text="PALACIO DEL ASEO" textFill="#5b5b5b">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
          </children>
       </Pane>
    </center>

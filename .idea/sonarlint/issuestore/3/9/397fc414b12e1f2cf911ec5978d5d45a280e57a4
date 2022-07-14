@@ -1,0 +1,31 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(¨Œ¯‘
+E
+java:S3740"/Provide the parametrized type for this generic.(èİÀ¤
+J
+java:S3740"/Provide the parametrized type for this generic.(ºšãÿıÿÿÿÿ
+D
+java:S3740v"/Provide the parametrized type for this generic.(Š6
+J
+java:S3740w"/Provide the parametrized type for this generic.(Ï£æ¡ùÿÿÿÿ
+J
+java:S3740x"/Provide the parametrized type for this generic.(ğª¬¯ÿÿÿÿÿ
+x
+java:S14506"]Remove the "listCategories" field and declare it as a local variable in the relevant methods.(Î¡óŠüÿÿÿÿ
+m
+java:S37768"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(Ä§´îøÿÿÿÿ
+U
+java:S11618":Add the "@Override" annotation above this method signature(Ä§´îøÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(½‡–ùøÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(ŒôÓ
+C	java:S108q")Either remove or fill this block of code.(§ÊÎùÿÿÿÿ
+T	java:S106°"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ
+T	java:S106²"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+O	java:S106Å"9Replace this use of System.out or System.err by a logger.(ŒôÓ
+I
+java:S1128".Remove this unused import 'helpers.Functions'.(»ÇÁÃùÿÿÿÿ
