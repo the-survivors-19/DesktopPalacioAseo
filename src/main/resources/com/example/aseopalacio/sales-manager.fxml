@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.SalesManager">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aseopalacio.SalesManagerController">
     <left>
         <Pane fx:id="slider" prefHeight="389.0" prefWidth="243.0" style="-fx-background-color: #3279BB;" BorderPane.alignment="CENTER">
             <children>
@@ -94,21 +94,6 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                         </Button>
-                        <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Realizar Venta" textAlignment="RIGHT" textFill="#fffefe">
-                            <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0" />
-                            </font>
-                            <graphic>
-                                <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@reports.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                        </Button>
                   <Button fx:id="btnSalesManager" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
@@ -161,12 +146,12 @@
                             <children>
                                 <TableView fx:id="tblSales" prefHeight="363.0" prefWidth="486.0" GridPane.rowIndex="1">
                                     <columns>
-                                        <TableColumn fx:id="colDate" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Fecha" />
-                                        <TableColumn fx:id="colNameClient" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Cliente" />
-                                        <TableColumn fx:id="colAddress" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Direccion" />
-                                        <TableColumn fx:id="colTotal" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Total" />
-                                        <TableColumn fx:id="colState" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Estado" />
-                              <TableColumn fx:id="colIdProduct" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="id" visible="false" />
+                                        <TableColumn fx:id="colDate" prefWidth="75.0" text="Fecha" />
+                                        <TableColumn fx:id="colNameClient" prefWidth="75.0" text="Cliente" />
+                                        <TableColumn fx:id="colAddress" prefWidth="75.0" text="Direccion" />
+                                        <TableColumn fx:id="colTotal" prefWidth="75.0" text="Total" />
+                                        <TableColumn fx:id="colState" prefWidth="75.0" text="Estado" />
+                              <TableColumn fx:id="colIdProduct" prefWidth="75.0" text="id" visible="false" />
                                     </columns>
                                     <columnResizePolicy>
                                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

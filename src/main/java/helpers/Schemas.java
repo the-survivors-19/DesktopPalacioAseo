@@ -9,6 +9,12 @@ public class Schemas {
         public Map<String, String> user;
     }
 
+    public class DetailsInvoice{
+        public String name;
+        public int price;
+        public int quantity;
+    }
+
     public class Users{
         public String id;
         public String full_name;
@@ -58,5 +64,23 @@ public class Schemas {
         public String quantity;
         public String remove;
         public Map<String, String> measurement_unit_id;
+        public Map<String, String> product_id;
+    }
+
+    public class SalesDetails{
+        public String id;
+        public String quantity;
+        public String price;
+    }
+
+    public class Sales{
+        public String id;
+        public String date;
+        public String total;
+        public String current_state;
+        public Map<String, String> user_id;
+        public String name_client;
+        public String address;
+        public List<SalesDetails> sales_details;
     }
 }

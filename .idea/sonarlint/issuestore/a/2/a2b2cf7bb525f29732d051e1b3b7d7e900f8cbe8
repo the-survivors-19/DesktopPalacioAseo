@@ -3,79 +3,114 @@ l
 java:S1104"QMake token a static final constant or non-public and provide accessors if needed.(œ½Ë„ýÿÿÿÿ
 k
 java:S1104	"PMake user a static final constant or non-public and provide accessors if needed.(ÇÓ£ÿÿÿÿÿ
-i
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
-p
-java:S1104"UMake full_name a static final constant or non-public and provide accessors if needed.(ÑÈÜýÿÿÿÿ
-g
-java:S1104"QMake phone a static final constant or non-public and provide accessors if needed.(«ç”¤
-n
-java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ
-l
-java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
-i
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
-r
-java:S1104"WMake description a static final constant or non-public and provide accessors if needed.(¹ÿ†ðÿÿÿÿÿ
-i
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
 f
-java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
-g
-java:S1104"QMake phone a static final constant or non-public and provide accessors if needed.(«ç”¤
-n
-java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ
-n
-java:S1104"XMake duty_manager a static final constant or non-public and provide accessors if needed.(£ñþÿ
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
 l
-java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
-i
-java:S1104#"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
-k
-java:S1104$"PMake unit a static final constant or non-public and provide accessors if needed.(”Ð‹•þÿÿÿÿ
-s
-java:S1104%"XMake abbreviation a static final constant or non-public and provide accessors if needed.(×¸Ö®úÿÿÿÿ
-e
-java:S1104)"PMake code a static final constant or non-public and provide accessors if needed.(€Î‡6
-i
-java:S1104*"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
-f
-java:S1104+"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
-r
-java:S1104,"WMake description a static final constant or non-public and provide accessors if needed.(¹ÿ†ðÿÿÿÿÿ
-n
-java:S1104-"QMake img_1 a static final constant or non-public and provide accessors if needed.(×©å8«ïóðŸ0
-s
-java:S1104."QMake img_2 a static final constant or non-public and provide accessors if needed.(¼îŠøþÿÿÿÿ8ë¢ôðŸ0
-n
-java:S1104/"QMake img_3 a static final constant or non-public and provide accessors if needed.(ÞûÀË8ë¢ôðŸ0
-n
-java:S11040"QMake img_4 a static final constant or non-public and provide accessors if needed.(ü®É8ë¢ôðŸ0
-r
-java:S11041"WMake category_id a static final constant or non-public and provide accessors if needed.(ËØ¤Ôúÿÿÿÿ
-l
-java:S11042"WMake provider_id a static final constant or non-public and provide accessors if needed.(§é™U
-v
-java:S11043"[Make weight_products a static final constant or non-public and provide accessors if needed.(†™ïúÿÿÿÿ
-i
-java:S11047"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
-g
-java:S11048"QMake price a static final constant or non-public and provide accessors if needed.(öâ¡¹
-l
-java:S11049"QMake stock a static final constant or non-public and provide accessors if needed.(¤¿‹ýûÿÿÿÿ
+java:S1104"QMake price a static final constant or non-public and provide accessors if needed.(ë­‡ìýÿÿÿÿ
 o
-java:S1104:"TMake quantity a static final constant or non-public and provide accessors if needed.(à¹¶Åùÿÿÿÿ
+java:S1104"TMake quantity a static final constant or non-public and provide accessors if needed.(Éô£ßýÿÿÿÿ
+i
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+p
+java:S1104"UMake full_name a static final constant or non-public and provide accessors if needed.(ÑÈÜýÿÿÿÿ
+g
+java:S1104"QMake phone a static final constant or non-public and provide accessors if needed.(«ç”¤
+n
+java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ
+l
+java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
+i
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+r
+java:S1104"WMake description a static final constant or non-public and provide accessors if needed.(¹ÿ†ðÿÿÿÿÿ
+i
+java:S1104 "NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+f
+java:S1104!"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+g
+java:S1104""QMake phone a static final constant or non-public and provide accessors if needed.(«ç”¤
+n
+java:S1104#"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ
+n
+java:S1104$"XMake duty_manager a static final constant or non-public and provide accessors if needed.(£ñþÿ
+l
+java:S1104%"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
+i
+java:S1104)"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+k
+java:S1104*"PMake unit a static final constant or non-public and provide accessors if needed.(”Ð‹•þÿÿÿÿ
+s
+java:S1104+"XMake abbreviation a static final constant or non-public and provide accessors if needed.(×¸Ö®úÿÿÿÿ
+e
+java:S1104/"PMake code a static final constant or non-public and provide accessors if needed.(€Î‡6
+i
+java:S11040"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+f
+java:S11041"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+r
+java:S11042"WMake description a static final constant or non-public and provide accessors if needed.(¹ÿ†ðÿÿÿÿÿ
+g
+java:S11043"QMake img_1 a static final constant or non-public and provide accessors if needed.(×©å
+l
+java:S11044"QMake img_2 a static final constant or non-public and provide accessors if needed.(¼îŠøþÿÿÿÿ
+g
+java:S11045"QMake img_3 a static final constant or non-public and provide accessors if needed.(ÞûÀË
+g
+java:S11046"QMake img_4 a static final constant or non-public and provide accessors if needed.(ü®É
+r
+java:S11047"WMake category_id a static final constant or non-public and provide accessors if needed.(ËØ¤Ôúÿÿÿÿ
+l
+java:S11048"WMake provider_id a static final constant or non-public and provide accessors if needed.(§é™U
+v
+java:S11049"[Make weight_products a static final constant or non-public and provide accessors if needed.(†™ïúÿÿÿÿ
+i
+java:S1104="NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+g
+java:S1104>"QMake price a static final constant or non-public and provide accessors if needed.(öâ¡¹
+l
+java:S1104?"QMake stock a static final constant or non-public and provide accessors if needed.(¤¿‹ýûÿÿÿÿ
+o
+java:S1104@"TMake quantity a static final constant or non-public and provide accessors if needed.(à¹¶Åùÿÿÿÿ
 m
-java:S1104;"RMake remove a static final constant or non-public and provide accessors if needed.(È’‰Šûÿÿÿÿ
+java:S1104A"RMake remove a static final constant or non-public and provide accessors if needed.(È’‰Šûÿÿÿÿ
 u
-java:S1104<"_Make measurement_unit_id a static final constant or non-public and provide accessors if needed.(îÛÕ¢
-n	java:S116"TRename this field "full_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÈÜýÿÿÿÿ
-l	java:S116"WRename this field "duty_manager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ñþÿ
-l	java:S116-"PRename this field "img_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×©å8µïóðŸ0
-q	java:S116."PRename this field "img_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼îŠøþÿÿÿÿ8ô¢ôðŸ0
-l	java:S116/"PRename this field "img_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞûÀË8õ¢ôðŸ0
-l	java:S1160"PRename this field "img_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®É8÷¢ôðŸ0
-p	java:S1161"VRename this field "category_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËØ¤Ôúÿÿÿÿ
-j	java:S1162"VRename this field "provider_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§é™U
-t	java:S1163"ZRename this field "weight_products" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†™ïúÿÿÿÿ
-s	java:S116<"^Rename this field "measurement_unit_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÛÕ¢
+java:S1104B"_Make measurement_unit_id a static final constant or non-public and provide accessors if needed.(îÛÕ¢
+q
+java:S1104C"VMake product_id a static final constant or non-public and provide accessors if needed.(íçË÷ûÿÿÿÿ
+i
+java:S1104G"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+o
+java:S1104H"TMake quantity a static final constant or non-public and provide accessors if needed.(à¹¶Åùÿÿÿÿ
+g
+java:S1104I"QMake price a static final constant or non-public and provide accessors if needed.(öâ¡¹
+i
+java:S1104M"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+f
+java:S1104N"PMake date a static final constant or non-public and provide accessors if needed.(áÊ÷
+l
+java:S1104O"QMake total a static final constant or non-public and provide accessors if needed.(ã«Áùÿÿÿÿ
+o
+java:S1104P"YMake current_state a static final constant or non-public and provide accessors if needed.(‹ŠÎ±
+n
+java:S1104Q"SMake user_id a static final constant or non-public and provide accessors if needed.(¤‹Ô›üÿÿÿÿ
+r
+java:S1104R"WMake name_client a static final constant or non-public and provide accessors if needed.(ÎÅ¯Üûÿÿÿÿ
+n
+java:S1104S"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ
+t
+java:S1104T"YMake sales_details a static final constant or non-public and provide accessors if needed.(§ãÙÂûÿÿÿÿ
+n	java:S116"TRename this field "full_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÈÜýÿÿÿÿ
+l	java:S116$"WRename this field "duty_manager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ñþÿ
+e	java:S1163"PRename this field "img_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×©å
+j	java:S1164"PRename this field "img_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼îŠøþÿÿÿÿ
+e	java:S1165"PRename this field "img_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞûÀË
+e	java:S1166"PRename this field "img_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®É
+p	java:S1167"VRename this field "category_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËØ¤Ôúÿÿÿÿ
+j	java:S1168"VRename this field "provider_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§é™U
+t	java:S1169"ZRename this field "weight_products" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†™ïúÿÿÿÿ
+s	java:S116B"^Rename this field "measurement_unit_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÛÕ¢
+o	java:S116C"URename this field "product_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íçË÷ûÿÿÿÿ
+m	java:S116P"XRename this field "current_state" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ŠÎ±
+l	java:S116Q"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤‹Ô›üÿÿÿÿ
+p	java:S116R"VRename this field "name_client" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÅ¯Üûÿÿÿÿ
+r	java:S116T"XRename this field "sales_details" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ãÙÂûÿÿÿÿ

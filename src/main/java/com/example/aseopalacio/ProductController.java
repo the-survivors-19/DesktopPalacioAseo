@@ -594,7 +594,6 @@ public class ProductController extends MenuComponent {
             String providerId = mapProviders.get(providerDD);
             String categoryId = mapCategories.get(categoryDD);
             try {
-                System.out.println("asda "+imgOne);
                 Map<String, String> headers = new HashMap<>();
                 headers.put("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36");
                 MultipartUtility multipart = new MultipartUtility("/products/"+txfIdModal.getText(), "UTF-8", headers);

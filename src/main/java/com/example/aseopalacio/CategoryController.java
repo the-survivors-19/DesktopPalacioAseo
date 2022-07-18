@@ -77,11 +77,9 @@ public class CategoryController extends MenuComponent {
                 String dataForm = "{" +
                         "\"description\":\"" + txfDescription.getText() + "\"" +
                         "}";
-                System.out.println(dataForm);
                 try {
                     HttpURLConnection request = Http.request("/categories", dataForm, "POST");
                     String response = Http.getResponse(request);
-                    System.out.println(response);
                     if (request.getResponseCode() == HttpURLConnection.HTTP_BAD_REQUEST) {
                         System.out.println("Error");
                     } else {
@@ -91,7 +89,6 @@ public class CategoryController extends MenuComponent {
                         alert.setContentText("Categoria creada correctamente.");
                         alert.showAndWait()
                                 .ifPresent(res -> {
-                                    System.out.println(res);
                                     if (res == ButtonType.OK) {
                                         Stage st = (Stage) btnCloseModal.getScene().getWindow();
                                         st.close();
@@ -102,7 +99,6 @@ public class CategoryController extends MenuComponent {
                                         }
                                     }
                                 });
-                        System.out.println("Creado");
 
                     }
                 } catch (Exception ex) {
@@ -183,7 +179,6 @@ public class CategoryController extends MenuComponent {
                     alert.setContentText("Categoria editada correctamente.");
                     alert.showAndWait()
                             .ifPresent(res -> {
-                                System.out.println(res);
                                 if (res == ButtonType.OK) {
                                     Stage st = (Stage) btnCloseModal.getScene().getWindow();
                                     st.close();
@@ -194,7 +189,6 @@ public class CategoryController extends MenuComponent {
                                     }
                                 }
                             });
-                    System.out.println("Creado");
 
                 }
             } catch (Exception ex) {

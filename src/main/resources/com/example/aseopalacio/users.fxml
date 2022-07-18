@@ -94,21 +94,6 @@
                         <Insets left="10.0" />
                      </VBox.margin>
                         </Button>
-                        <Button fx:id="btnVentas" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Realizar Venta" textAlignment="RIGHT" textFill="#fffefe">
-                            <font>
-                                <Font name="Arial Rounded MT Bold" size="13.0" />
-                            </font>
-                            <graphic>
-                                <ImageView fitHeight="19.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@reports.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                     <VBox.margin>
-                        <Insets left="10.0" />
-                     </VBox.margin>
-                        </Button>
                   <Button fx:id="btnSalesManager" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="29.0" prefWidth="242.0" style="-fx-background-color: #3279BB;" styleClass="sidebarltem" text="Administrar ventas" textAlignment="RIGHT" textFill="#fffefe">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="13.0" />
@@ -166,11 +151,11 @@
                             <children>
                                 <TableView fx:id="tableUsers" prefHeight="363.0" prefWidth="521.0" GridPane.rowIndex="1">
                                     <columns>
-                                        <TableColumn fx:id="colFullName" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Nombre" />
-                                        <TableColumn fx:id="colPhone" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Telefono" />
-                                        <TableColumn fx:id="colAddress" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Dirección" />
-                                        <TableColumn fx:id="colEmail" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Correo" />
-                                        <TableColumn fx:id="colActions" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
+                                        <TableColumn fx:id="colFullName" prefWidth="75.0" text="Nombre" />
+                                        <TableColumn fx:id="colPhone" prefWidth="75.0" text="Telefono" />
+                                        <TableColumn fx:id="colAddress" prefWidth="75.0" text="Dirección" />
+                                        <TableColumn fx:id="colEmail" prefWidth="75.0" text="Correo" />
+                                        <TableColumn fx:id="colActions" prefWidth="75.0" text="Acciones" />
                               <TableColumn fx:id="colId" prefWidth="75.0" text="id" visible="false" />
                                     </columns>
                                     <columnResizePolicy>

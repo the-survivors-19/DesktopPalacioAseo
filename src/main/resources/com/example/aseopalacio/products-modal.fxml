@@ -38,13 +38,13 @@
             <TableView fx:id="tblWeightProducts" prefHeight="153.0" prefWidth="322.0" visible="false">
               <columns>
                   <TableColumn prefWidth="75.0" text="id" visible="false" />
-                <TableColumn fx:id="colWeightProductShowQuantity" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Cantidad" />
-                <TableColumn fx:id="colWeightProductPrice" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Precio" />
-                  <TableColumn fx:id="colWeightProductActions" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="Acciones" />
-                  <TableColumn fx:id="colWeightProductQuantity" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="cant" visible="false" />
-                  <TableColumn fx:id="colWeightProductId" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="id" visible="false" />
-                  <TableColumn fx:id="colWeightProductStock" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="stock" visible="false" />
-                  <TableColumn fx:id="colWeightProductIdDdMU" prefWidth="75.0" style="-fx-background-color: #89ABCA;" text="idMU" visible="false" />
+                <TableColumn fx:id="colWeightProductShowQuantity" prefWidth="75.0" text="Cantidad" />
+                <TableColumn fx:id="colWeightProductPrice" prefWidth="75.0" text="Precio" />
+                  <TableColumn fx:id="colWeightProductActions" prefWidth="75.0" text="Acciones" />
+                  <TableColumn fx:id="colWeightProductQuantity" prefWidth="75.0" text="cant" visible="false" />
+                  <TableColumn fx:id="colWeightProductId" prefWidth="75.0" text="id" visible="false" />
+                  <TableColumn fx:id="colWeightProductStock" prefWidth="75.0" text="stock" visible="false" />
+                  <TableColumn fx:id="colWeightProductIdDdMU" prefWidth="75.0" text="idMU" visible="false" />
               </columns>
                <columnResizePolicy>
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
