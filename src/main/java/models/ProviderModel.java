@@ -2,9 +2,13 @@ package models;
 
 import com.example.aseopalacio.MenuComponent;
 import helpers.Http;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
+import javafx.stage.Stage;
 
 import java.net.HttpURLConnection;
+import java.util.Optional;
 
 public class ProviderModel {
     private String id;
@@ -24,15 +28,30 @@ public class ProviderModel {
         this.email = email;
         this.actions = new Button("Eliminar");
         this.actions.setOnMouseClicked(e -> {
-            try {
-                HttpURLConnection request = Http.request("/providers/" + id, "", "DELETE");
-                String response = Http.getResponse(request);
-                MenuComponent mc = new MenuComponent();
-                mc.setScenne("providers");
-                System.out.println(response);
-            } catch (Exception ex) {
-                ex.printStackTrace();
+            Alert preventDelete = new Alert(Alert.AlertType.CONFIRMATION);
+            preventDelete.setHeaderText(null);
+            preventDelete.setTitle("Eliminar proveedor");
+            preventDelete.setContentText("¿Seguro que deseas eliminar este proveedor?\nProveedor: "+this.name);
+            Optional<ButtonType> confirmation = preventDelete.showAndWait();
+            String textAlert = "";
+            if(confirmation.get() == ButtonType.OK) {
+                try {
+                    HttpURLConnection request = Http.request("/providers/" + id, "", "DELETE");
+                    String response = Http.getResponse(request);
+                    MenuComponent mc = new MenuComponent();
+                    mc.setScenne("providers");
+                    textAlert = "Se elimino el proveedor satisfactoriamente";
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }else{
+                textAlert = "Se cancelo la acción satisfactoriamente";
             }
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Proveedores");
+            alert.setHeaderText(null);
+            alert.setContentText(textAlert);
+            alert.showAndWait();
         });
     }
 

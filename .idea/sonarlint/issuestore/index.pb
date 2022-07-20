@@ -1,14 +1,8 @@
 
 N
 src/main/java/module-info.java,1/c/1c89a5491fbfda3fb050196d6a239f20200296e7
-W
-'src/main/java/models/ProviderModel.java,2/1/21fbd44506d21e3ad8c392262bfdaa97a7fc17f0
 i
 9src/main/java/com/example/aseopalacio/HomeController.java,0/2/02e202164f158635e9202152c2a613438241d32b
-j
-:src/main/java/com/example/aseopalacio/HomeApplication.java,8/1/81e44d7acf552cd37ffc66082c27d2b830d1887e
-k
-;src/main/java/com/example/aseopalacio/LoginApplication.java,9/6/96344187814670d29de183e8357aca9e6388c501
 Y
 )src/main/java/helpers/SearchComboBox.java,4/d/4d3f92fadff912f8dc2bc702bbbc622d386bde05
 W
@@ -21,8 +15,6 @@ i
 9src/main/java/com/example/aseopalacio/UserController.java,3/2/32aed8da22cc80b6ff931c785e010f07a525b456
 n
 >src/main/java/com/example/aseopalacio/InventaryController.java,f/a/fa32c8f7ede8af2daf05ad50ce706f92e0b05a4f
-m
-=src/main/java/com/example/aseopalacio/ProviderController.java,c/e/cef30a21877b479bc7f645b777f4dac123546618
 n
 >src/main/java/com/example/aseopalacio/PrivilegeController.java,3/f/3fd106f671bfe2ce360b34a1c8f33c38fe93b380
 i
@@ -57,3 +49,7 @@ q
 Asrc/main/java/com/example/aseopalacio/SalesManagerController.java,9/6/96ac3052e254cd6e42bfd9e782cab79e8d222e77
 T
 $src/main/java/models/SalesModel.java,f/5/f5ad1ea3226301c36501c2c2050d3b4043d5528e
+l
+<src/main/java/com/example/aseopalacio/ProductController.java,f/9/f92a5681da11055f7d8d287d52e93761b7493aa5
+[
++src/main/java/helpers/MultipartUtility.java,2/f/2fed4e243f483a0934b0fd5e1b4c7f1f35a67b78
