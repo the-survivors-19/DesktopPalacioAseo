@@ -49,7 +49,3 @@ q
 Asrc/main/java/com/example/aseopalacio/SalesManagerController.java,9/6/96ac3052e254cd6e42bfd9e782cab79e8d222e77
 T
 $src/main/java/models/SalesModel.java,f/5/f5ad1ea3226301c36501c2c2050d3b4043d5528e
-l
-<src/main/java/com/example/aseopalacio/ProductController.java,f/9/f92a5681da11055f7d8d287d52e93761b7493aa5
-[
-+src/main/java/helpers/MultipartUtility.java,2/f/2fed4e243f483a0934b0fd5e1b4c7f1f35a67b78

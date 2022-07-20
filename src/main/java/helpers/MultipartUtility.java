@@ -97,7 +97,7 @@ public class MultipartUtility {
      * status OK, otherwise an exception is thrown.
      * @throws IOException
      */
-    public String finish() throws IOException {
+    public String finish() throws Exception {
         String response = "";
         writer.flush();
         writer.append("--" + boundary + "--").append(LINE);

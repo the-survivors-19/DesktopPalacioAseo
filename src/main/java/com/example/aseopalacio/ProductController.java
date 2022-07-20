@@ -217,6 +217,8 @@ public class ProductController extends MenuComponent {
                                         st.close();
                                         try {
                                             super.setScenne("products");
+                                            st = (Stage) tblWeightProducts.getScene().getWindow();
+                                            System.out.println(st);
                                         } catch (Exception ex) {
                                             ex.printStackTrace();
                                         }
@@ -593,49 +595,65 @@ public class ProductController extends MenuComponent {
             String categoryDD = this.ddCategories.getValue().toString();
             String providerId = mapProviders.get(providerDD);
             String categoryId = mapCategories.get(categoryDD);
-            try {
-                Map<String, String> headers = new HashMap<>();
-                headers.put("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36");
-                MultipartUtility multipart = new MultipartUtility("/products/"+txfIdModal.getText(), "UTF-8", headers);
-                System.out.println("token: "+States.session.token);
-                multipart.addFormField("name", txfName.getText() );
-                multipart.addFormField("description", txfDescription.getText());
-                multipart.addFormField("category_id", categoryId);
-                multipart.addFormField("provider_id", providerId);
-                if(imgOne != null) {
-                    multipart.addFilePart("images", imgOne);
-                }
-                if(imgTwo != null) {
-                    multipart.addFilePart("images", imgTwo);
-                }
-                if(imgThree != null) {
-                    multipart.addFilePart("images", imgThree);
-                }
-                if(imgFour != null) {
-                    multipart.addFilePart("images", imgFour);
-                }
-                String resMultipart = multipart.finish();
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.setTitle("Producto");
-                alert.setHeaderText(null);
-                alert.setContentText(resMultipart);
-                alert.showAndWait()
-                        .ifPresent(res -> {
-                            System.out.println(res);
-                            if (res == ButtonType.OK) {
-                                Stage st = (Stage) btnSave.getScene().getWindow();
-                                st.close();
-                                try {
-                                    this.setScenne("products");
-                                } catch (Exception ex) {
-                                    ex.printStackTrace();
+            boolean canContinue = true;
+            String showData = "";
+            if(providerId == null){
+                showData = showData.concat("* Debes elegir un nuevo proveedor, el que tiene ya no está registrado.\n");
+                canContinue = false;
+            }
+            if(categoryId == null){
+                showData = showData.concat("* Debes elegir una nueva categoria, la que tiene ya no está registrada.\n");
+                canContinue = false;
+            }
+            if(!canContinue) {
+                Alert t = new Alert(Alert.AlertType.INFORMATION);
+                t.setHeaderText(null);
+                t.setTitle("Productos");
+                t.setContentText(showData);
+                t.showAndWait();
+            }else {
+                try {
+                    Map<String, String> headers = new HashMap<>();
+                    headers.put("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36");
+                    MultipartUtility multipart = new MultipartUtility("/products/" + txfIdModal.getText(), "UTF-8", headers);
+                    multipart.addFormField("name", txfName.getText());
+                    multipart.addFormField("description", txfDescription.getText());
+                    multipart.addFormField("category_id", categoryId);
+                    multipart.addFormField("provider_id", providerId);
+                    if (imgOne != null) {
+                        multipart.addFilePart("images", imgOne);
+                    }
+                    if (imgTwo != null) {
+                        multipart.addFilePart("images", imgTwo);
+                    }
+                    if (imgThree != null) {
+                        multipart.addFilePart("images", imgThree);
+                    }
+                    if (imgFour != null) {
+                        multipart.addFilePart("images", imgFour);
+                    }
+                    String resMultipart = multipart.finish();
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.setTitle("Producto");
+                    alert.setHeaderText(null);
+                    alert.setContentText(resMultipart);
+                    alert.showAndWait()
+                            .ifPresent(res -> {
+                                System.out.println(res);
+                                if (res == ButtonType.OK) {
+                                    Stage st = (Stage) btnSave.getScene().getWindow();
+                                    st.close();
+                                    try {
+                                        this.setScenne("products");
+                                    } catch (Exception ex) {
+                                        ex.printStackTrace();
+                                    }
                                 }
-                            }
-                        });
-                System.out.println(resMultipart);
+                            });
 
-            } catch (Exception ex) {
-                ex.printStackTrace();
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
             }
         });
 
