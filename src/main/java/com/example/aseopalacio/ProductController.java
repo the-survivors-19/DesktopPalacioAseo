@@ -1,10 +1,9 @@
 package com.example.aseopalacio;
 
 import com.google.gson.Gson;
-import helpers.Http;
-import helpers.MultipartUtility;
-import helpers.Schemas;
-import helpers.States;
+import helpers.*;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -165,6 +164,9 @@ public class ProductController extends MenuComponent {
     void initialize() throws Exception {
         super.initialize();
         if (btnWeightProductsCloseModal != null) {
+            txfWeightProductsQuantity.setOnKeyPressed(e-> {KeyPresseds.onlyNumbers(txfWeightProductsQuantity);});
+            txfWeightProductsPrice.setOnKeyPressed(e-> {KeyPresseds.onlyNumbers(txfWeightProductsPrice);});
+            txfWeightProductsStock.setOnKeyPressed(e-> {KeyPresseds.onlyNumbers(txfWeightProductsStock);});
             btnWeightProductsCloseModal.setOnMouseClicked(e -> {
                 Stage st = (Stage) btnWeightProductsCloseModal.getScene().getWindow();
                 st.close();

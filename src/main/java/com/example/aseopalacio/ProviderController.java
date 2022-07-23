@@ -2,6 +2,7 @@ package com.example.aseopalacio;
 
 import com.google.gson.Gson;
 import helpers.Http;
+import helpers.KeyPresseds;
 import helpers.Schemas;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -87,6 +88,7 @@ public class ProviderController extends MenuComponent {
             });
         }
         if(btnCloseModal != null){
+            txfDutyManager.setOnKeyPressed(e -> KeyPresseds.onlyLetters(txfDutyManager));
             btnCloseModal.setOnMouseClicked(e -> {
                 Stage st = (Stage) btnCloseModal.getScene().getWindow();
                 st.close();

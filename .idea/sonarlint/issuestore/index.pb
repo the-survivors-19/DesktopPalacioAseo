@@ -31,14 +31,10 @@ m
 =src/main/java/com/example/aseopalacio/CategoryController.java,3/9/397fc414b12e1f2cf911ec5978d5d45a280e57a4
 O
 src/main/java/helpers/Http.java,5/5/55fe521e0383d8abea84bbcab46a1a82748b75d6
-h
-8src/main/java/com/example/aseopalacio/MenuComponent.java,3/7/375849733386e49e374d528cd5f78b26470ac1a0
 ]
 -src/main/java/models/WeightProductsModel.java,1/9/19ab38d4d9728e6e9fa56d2dedb7c5190078896c
 [
 +src/main/java/models/SalesDetailsModel.java,4/f/4ffc02d053c882d8d2889e32709d3e06db09320c
-t
-Dsrc/main/java/com/example/aseopalacio/MeasurementUnitController.java,5/7/57315cf854ef0511330daa5dbe4677ca1c8a6502
 ^
 .src/main/java/models/MeasurementUnitModel.java,8/3/83f4d66e0a61262ad244fcad9e61ce2de6b2c0ed
 R
@@ -49,3 +45,7 @@ q
 Asrc/main/java/com/example/aseopalacio/SalesManagerController.java,9/6/96ac3052e254cd6e42bfd9e782cab79e8d222e77
 T
 $src/main/java/models/SalesModel.java,f/5/f5ad1ea3226301c36501c2c2050d3b4043d5528e
+W
+'src/main/java/models/ProviderModel.java,2/1/21fbd44506d21e3ad8c392262bfdaa97a7fc17f0
+k
+;src/main/java/com/example/aseopalacio/LoginApplication.java,9/6/96344187814670d29de183e8357aca9e6388c501

@@ -44,8 +44,8 @@ public class LoginController {
         String email = username.getText();
         String tePass = password.getText();
 
-        //String dataForm = "{\"email\":\"yexid.9901@gmail.com\",\"password\":\"AmHt2018Ab.\"}";
-        String dataForm = "{\"email\":\"" + email + "\",\"password\":\"" + tePass + "\"}";
+        String dataForm = "{\"email\":\"yexid.9901@gmail.com\",\"password\":\"AmHt2018Ab.\"}";
+        //String dataForm = "{\"email\":\"" + email + "\",\"password\":\"" + tePass + "\"}";
 
         HttpURLConnection request = Http.request("/login", dataForm, "POST");
 

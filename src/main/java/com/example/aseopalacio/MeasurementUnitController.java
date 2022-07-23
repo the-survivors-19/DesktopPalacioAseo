@@ -2,6 +2,7 @@ package com.example.aseopalacio;
 
 import com.google.gson.Gson;
 import helpers.Http;
+import helpers.KeyPresseds;
 import helpers.Schemas;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -98,6 +99,7 @@ public class MeasurementUnitController extends MenuComponent {
             });
         }
         if (btnCloseModal != null) {
+            txfAbbreviation.setOnKeyPressed(e -> KeyPresseds.maxLength(txfAbbreviation, 3));
             btnSave.setOnMouseClicked(e -> {
                 String dataForm = "{" +
                         "\"unit\":\"" + txfUnit.getText() + "\"," +
