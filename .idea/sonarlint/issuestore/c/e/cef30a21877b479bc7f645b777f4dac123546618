@@ -1,0 +1,44 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(¨Œ¯‘
+E
+java:S3740"/Provide the parametrized type for this generic.(´°æ¸
+J
+java:S3740!"/Provide the parametrized type for this generic.(È“§øøÿÿÿÿ
+J
+java:S3740$"/Provide the parametrized type for this generic.(”Ú£öÿÿÿÿÿ
+E
+java:S3740'"/Provide the parametrized type for this generic.(Œà•®
+J
+java:S3740*"/Provide the parametrized type for this generic.(æÔÜ¼ûÿÿÿÿ
+J
+java:S3740-"/Provide the parametrized type for this generic.(ºšãÿıÿÿÿÿ
+D
+java:S3740b"/Provide the parametrized type for this generic.(Š6
+E
+java:S3740c"/Provide the parametrized type for this generic.(¢ØîÃ
+J
+java:S3740d"/Provide the parametrized type for this generic.(Çºåªùÿÿÿÿ
+J
+java:S3740e"/Provide the parametrized type for this generic.(ÅÅúûÿÿÿÿ
+J
+java:S3740f"/Provide the parametrized type for this generic.(ƒÕ¨ÿÿÿÿÿ
+L
+java:S3740g"/Provide the parametrized type for this generic.(´üî8ÈÂŠ¢0
+J
+java:S3740h"/Provide the parametrized type for this generic.(ğª¬¯ÿÿÿÿÿ
+r
+java:S1450M"\Remove the "listProviders" field and declare it as a local variable in the relevant methods.(ÓèÇç
+m
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ä§´îøÿÿÿÿ
+U
+java:S1161O":Add the "@Override" annotation above this method signature(Ä§´îøÿÿÿÿ
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(…í÷ûÿÿÿÿ8âÈÂŠ¢0
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8æÈÂŠ¢0
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8çÈÂŠ¢0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8ëÈÂŠ¢0
+V	java:S106¨"9Replace this use of System.out or System.err by a logger.(ŒôÓ8îÈÂŠ¢0
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ÿäíŞ8›ÉÂŠ¢0
+[	java:S106×"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8ŸÉÂŠ¢0
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8 ÉÂŠ¢0
+[	java:S106á"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8£ÉÂŠ¢0

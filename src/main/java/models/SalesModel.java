@@ -25,12 +25,12 @@ public class SalesModel {
     private List<Schemas.SalesDetails> salesDetails;
     private String state;
 
-    public SalesModel(String id, String date, String total, String current_state, Map<String, String> user_id, String name_client, String address) {
+    public SalesModel(String id, String date, String total, String state, Map<String, String> user_id, String name_client, String address) {
         this.id = id;
         this.date = date;
-        this.state = current_state;
+        this.state = state;
         this.total = total;
-        this.currentState = new Button(current_state);
+        this.currentState = new Button(state);
         this.currentState.setOnMouseClicked(e -> {
             try {
                 URL locationModal = SalesManagerController.class.getResource("sale-change-state.fxml");

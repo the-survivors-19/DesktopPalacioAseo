@@ -91,7 +91,7 @@ public class SalesManagerController extends MenuComponent {
                         sale.id,
                         sale.date,
                         sale.total,
-                        sale.current_state,
+                        sale.state,
                         sale.user_id,
                         sale.name_client,
                         sale.address

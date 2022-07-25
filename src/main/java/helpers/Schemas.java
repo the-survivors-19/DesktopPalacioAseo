@@ -77,7 +77,7 @@ public class Schemas {
         public String id;
         public String date;
         public String total;
-        public String current_state;
+        public String state;
         public Map<String, String> user_id;
         public String name_client;
         public String address;

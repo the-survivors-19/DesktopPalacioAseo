@@ -1,0 +1,29 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(²Õûíúÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(¨Œ¯‘
+J
+java:S3740!"/Provide the parametrized type for this generic.(ºšãÿıÿÿÿÿ
+E
+java:S3740$"/Provide the parametrized type for this generic.(ìæ±÷
+D
+java:S3740@"/Provide the parametrized type for this generic.(Š6
+J
+java:S3740A"/Provide the parametrized type for this generic.(¡˜ãÑûÿÿÿÿ
+J
+java:S3740B"/Provide the parametrized type for this generic.(‚æÃ§ùÿÿÿÿ
+J
+java:S3740C"/Provide the parametrized type for this generic.(ğª¬¯ÿÿÿÿÿ
+u
+java:S1450)"XRemove the "listUnits" field and declare it as a local variable in the relevant methods.(Ñ‰•É8Ô—ğŠ¢0
+t
+java:S3776="RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ä§´îøÿÿÿÿ8İ—ğŠ¢0
+\
+java:S1161=":Add the "@Override" annotation above this method signature(Ä§´îøÿÿÿÿ8à—ğŠ¢0
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8ø—ğŠ¢0
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8ú—ğŠ¢0
+Z	java:S106y"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8ÿ—ğŠ¢0
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8Ä˜ğŠ¢0
+[	java:S106°"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8Ç˜ğŠ¢0
+[	java:S106¸"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8Ë˜ğŠ¢0
