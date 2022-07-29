@@ -15,12 +15,12 @@
       </Label>
       <Label layoutX="43.0" layoutY="67.0" text="Categoria" />
       <TextField fx:id="txfDescription" layoutX="129.0" layoutY="63.0" />
-      <Button fx:id="btnCloseModal" layoutX="59.0" layoutY="111.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+      <Button fx:id="btnCloseModal" layoutX="59.0" layoutY="111.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" text="Cerrar">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="btnSaveCategory" layoutX="199.0" layoutY="111.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+      <Button fx:id="btnSaveCategory" layoutX="199.0" layoutY="111.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Guardar" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>

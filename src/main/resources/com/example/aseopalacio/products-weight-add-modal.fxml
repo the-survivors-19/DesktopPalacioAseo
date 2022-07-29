@@ -23,12 +23,12 @@
       <Label layoutX="44.0" layoutY="192.0" text="Precio" />
       <TextField fx:id="txfWeightProductsPrice" layoutX="132.0" layoutY="188.0" />
       <TextField fx:id="txfWeightProductsId" layoutX="70.0" layoutY="50.0" prefHeight="24.0" prefWidth="67.0" visible="false" />
-      <Button fx:id="btnWeightProductsSave" layoutX="211.0" layoutY="241.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+      <Button fx:id="btnWeightProductsSave" layoutX="211.0" layoutY="241.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Guardar" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="btnWeightProductsCloseModal" layoutX="57.0" layoutY="241.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+      <Button fx:id="btnWeightProductsCloseModal" layoutX="57.0" layoutY="241.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" text="Cerrar">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>

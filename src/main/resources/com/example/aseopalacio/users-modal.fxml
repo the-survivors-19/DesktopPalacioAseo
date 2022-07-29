@@ -42,7 +42,7 @@
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
         </Label>
-        <Button fx:id="btnCloseModalCreate" layoutX="34.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+        <Button fx:id="btnCloseModalCreate" layoutX="34.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" text="Cerrar">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font></Button>
@@ -56,7 +56,7 @@
                 <MenuItem mnemonicParsing="false" text="Administrador " />
             </items>
         </MenuButton>
-        <Button fx:id="btnSaveUser" layoutX="142.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+        <Button fx:id="btnSaveUser" layoutX="142.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Guardar" textFill="WHITE">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>

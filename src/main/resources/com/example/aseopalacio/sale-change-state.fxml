@@ -13,12 +13,12 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="btnCloseModalState" layoutX="65.0" layoutY="107.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+      <Button fx:id="btnCloseModalState" layoutX="65.0" layoutY="107.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" text="Cerrar">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="btnUpdateState" layoutX="173.0" layoutY="107.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+      <Button fx:id="btnUpdateState" layoutX="173.0" layoutY="107.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Guardar" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>

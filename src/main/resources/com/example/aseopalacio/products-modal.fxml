@@ -58,12 +58,12 @@
       <ImageView fx:id="btnImageTwo" fitHeight="122.0" fitWidth="153.0" layoutX="567.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="btnImageThree" fitHeight="122.0" fitWidth="153.0" layoutX="397.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="btnImageFour" fitHeight="122.0" fitWidth="153.0" layoutX="567.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="btnSave" layoutX="643.0" layoutY="425.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #9FC7EB;" text="Guardar">
+      <Button fx:id="btnSave" layoutX="643.0" layoutY="425.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Guardar" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="btnCloseModal" layoutX="532.0" layoutY="425.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #3279BB;" text="Cerrar" textFill="WHITE">
+      <Button fx:id="btnCloseModal" layoutX="532.0" layoutY="425.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="97.0" text="Cerrar">
          <font>
             <Font name="Arial Rounded MT Bold" size="13.0" />
          </font>

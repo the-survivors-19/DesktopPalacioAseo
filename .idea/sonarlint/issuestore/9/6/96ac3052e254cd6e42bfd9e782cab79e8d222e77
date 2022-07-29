@@ -1,47 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(´°æ¸
-E
-java:S3740"/Provide the parametrized type for this generic.(œÑÀ¸
-J
-java:S3740 "/Provide the parametrized type for this generic.(Ş­Šûÿÿÿÿ
-J
-java:S3740#"/Provide the parametrized type for this generic.(½³î’ÿÿÿÿÿ
-E
-java:S3740&"/Provide the parametrized type for this generic.(Ù–ªæ
-J
-java:S3740F"/Provide the parametrized type for this generic.(»¨…Šúÿÿÿÿ
-J
-java:S3740N"/Provide the parametrized type for this generic.(Çºåªùÿÿÿÿ
-E
-java:S3740O"/Provide the parametrized type for this generic.(ŸÍæ¶
-D
-java:S3740P"/Provide the parametrized type for this generic.(¯ûÆF
-J
-java:S3740Q"/Provide the parametrized type for this generic.(âé¤¾üÿÿÿÿ
-J
-java:S3740R"/Provide the parametrized type for this generic.(Ó«›Áøÿÿÿÿ
-F
-java:S3740¦"/Provide the parametrized type for this generic.(äúÕƒ
-8
-java:S1643š"Use a StringBuilder instead.(·ööåøÿÿÿÿ
-8
-java:S1643›"Use a StringBuilder instead.(†´Ô¢ùÿÿÿÿ
-3
-java:S1643œ"Use a StringBuilder instead.(¶–‘ì
-3
-java:S1643"Use a StringBuilder instead.(¢ï´‚
-n
-java:S1450="XRemove the "listSales" field and declare it as a local variable in the relevant methods.(åú¥ã
-U
-java:S1161K":Add the "@Override" annotation above this method signature(Ä§´îøÿÿÿÿ
-T	java:S106’"9Replace this use of System.out or System.err by a logger.(¶ä÷ˆøÿÿÿÿ
-T	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¶ä÷ˆøÿÿÿÿ
-T	java:S106¼"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
-T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ
-P
-java:S1128"5Remove this unused import 'javafx.scene.layout.Pane'.(êÄƒÄşÿÿÿÿ
-S
-java:S1128"8Remove this unused import 'models.MeasurementUnitModel'.(½ã”Ìøÿÿÿÿ
-K
-java:S1128"0Remove this unused import 'models.ProductModel'.(‰ñ‹Ÿùÿÿÿÿ

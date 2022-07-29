@@ -141,22 +141,17 @@ public class SalesManagerController extends MenuComponent {
         this.lblNameClient.setText(sale.getName_client());
         this.lblAddress.setText(sale.getAddress());
         String req = "";
-        for (Schemas.SalesDetails pr:
-             sale.getSalesDetails()) {
-            System.out.println(pr.id);
-            HttpURLConnection request = Http.request("/sales/products/"+pr.id, "", "GET");
-            String response = Http.getResponse(request);
-            Gson gson = new Gson();
+        HttpURLConnection request = Http.request("/sales/products/"+sale.getId(), "", "GET");
+        String response = Http.getResponse(request);
+        Gson gson = new Gson();
 
-            Schemas.DetailsInvoice[] di = gson.fromJson(response, Schemas.DetailsInvoice[].class);
-            for (Schemas.DetailsInvoice ab:
+        Schemas.DetailsInvoice[] di = gson.fromJson(response, Schemas.DetailsInvoice[].class);
+        for (Schemas.DetailsInvoice ab:
                 di){
-                req += "Producto: "+ ab.name +"\n";
-                req += "Precio Unit: "+ab.price +"\n";
-                req += "Total Producto: "+ (ab.price*ab.quantity) +"\n";
-                req += "==============================\n";
-            }
-            System.out.println(pr.id);
+            req += "Producto: "+ ab.name +"\n";
+            req += "Precio Unit: "+ab.price +"\n";
+            req += "Total Producto: "+ (ab.price*ab.quantity) +"\n";
+            req += "==============================\n";
         }
         this.txfRequest.setText(req);
     }
