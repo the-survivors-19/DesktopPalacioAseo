@@ -41,3 +41,17 @@ W
 'src/main/java/models/ProviderModel.java,2/1/21fbd44506d21e3ad8c392262bfdaa97a7fc17f0
 l
 <src/main/java/com/example/aseopalacio/ProductController.java,f/9/f92a5681da11055f7d8d287d52e93761b7493aa5
+Q
+!src/main/java/helpers/States.java,2/7/27ec093224fab206b523a9a114a64ec27ce5b633
+k
+;src/main/java/com/example/aseopalacio/LoginApplication.java,9/6/96344187814670d29de183e8357aca9e6388c501
+j
+:src/main/java/com/example/aseopalacio/LoginController.java,8/6/86819473fe0e32e6109930ad4376ed5d354a96f2
+q
+Asrc/main/java/com/example/aseopalacio/SalesManagerController.java,9/6/96ac3052e254cd6e42bfd9e782cab79e8d222e77
+R
+"src/main/java/helpers/Schemas.java,a/2/a2b2cf7bb525f29732d051e1b3b7d7e900f8cbe8
+T
+$src/main/java/models/SalesModel.java,f/5/f5ad1ea3226301c36501c2c2050d3b4043d5528e
+T
+$src/main/java/helpers/Constants.java,f/6/f6e7a4f9f842401adcecadfe41038f9d4e53e62b
